@@ -1,0 +1,98 @@
+.main {
+    background-color: var(--grey-900);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card {
+    min-width: 327px;
+    background-color: var(--grey-800);
+    border-radius: var(--border-radius);
+    padding: 24px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    height: 579px;
+}
+
+.image {
+    height: 88px;
+    width: 88px;
+    border-radius: 50%;
+}
+
+.name__header {
+    font-size: var(--font-size-text-preset-1);
+    line-height: var(--line-height-text-preset-1);
+    letter-spacing: var(--letter-spacing-text-preset-1);
+    font-weight: var(--bold);
+    color: var(--white);
+}
+
+.location__header {
+    font-size: var(--font-size-text-preset-2);
+    line-height: var(--line-height-text-preset-2);
+    letter-spacing: var(--letter-spacing-text-preset-2);
+    font-weight: var(--bold);
+    color: var(--green);
+}
+
+.subline {
+    font-size: var(--font-size-text-preset-2);
+    line-height: var(--line-height-text-preset-2);
+    letter-spacing: var(--letter-spacing-text-preset-2);
+    color: var(--white);
+}
+
+.social-links__container {
+    height: 289px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.social-link__container {
+    background-color: var(--grey-700);
+    height: 45px;
+    min-width: 279px;
+    border-radius: var(--border-radius);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.social-link__a {
+    color: var(--white);
+    text-decoration: none;
+    font-size: var(--font-size-text-preset-2);
+    line-height: var(--line-height-text-preset-2);
+    letter-spacing: var(--letter-spacing-text-preset-2);
+    font-weight: var(--bold);
+
+    background-color: var(--grey-700);
+    height: 45px;
+    min-width: 279px;
+    border-radius: var(--border-radius);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.social-link__a:hover {
+    background-color: var(--green);
+    color: var(--grey-900);
+}
+
+@media screen and (min-width: 768px) {
+    .card {
+        min-width: 384px;
+        height: 611px;
+    }
+}
